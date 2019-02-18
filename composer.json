@@ -1,20 +1,28 @@
 {
-    "name": "boxtim/graphite",
-    "description": "Nanoframework for build an api with GraphQL",
-    "type": "project",
-    "require": {
-        "webonyx/graphql-php": "^0.13.0",
-        "vlucas/phpdotenv": "^3.3",
-        "gabordemooij/redbean": "^5.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Brahayan Xavier Suárez Ramírez",
-            "email": "i@boxtim.com"
-        }
-    ]
+  "name": "boxtim/graphite",
+  "description": "Nanoframework for build an api with GraphQL",
+  "type": "project",
+  "require": {
+    "webonyx/graphql-php": "^0.13.0",
+    "vlucas/phpdotenv": "^3.3",
+    "gabordemooij/redbean": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brahayan Xavier Suárez Ramírez",
+      "email": "i@boxtim.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Graphite\\": "src/",
+      "Graphite\\Api\\": "src/api/",
+      "Graphite\\Lib\\": "src/lib/",
+      "Graphite\\Tools\\": "src/tools"
+    }
+  }
 }

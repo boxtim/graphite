@@ -1,1 +1,1 @@
-# Nanoframework for build an api with GraphQLñ
+# Nanoframework for build an api with GraphQL
